@@ -1,0 +1,10 @@
+name: Run from other repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-workflow-from-other-repo:
+    uses: az0083/github-action-test/.github/workflows/run_script.yml@self-hosted
