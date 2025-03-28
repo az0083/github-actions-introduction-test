@@ -8,3 +8,5 @@ on:
 jobs:
   run-workflow-from-other-repo:
     uses: az0083/github-action-test/.github/workflows/run_script.yml@self-hosted
+    with:
+      from: 'az0083/github-actions-introduction-test'
